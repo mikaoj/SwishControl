@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SwishControl', :exclusive => true do
+  pod "SwishControl", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "SwishControl", :path => "../"
+
+  
+end
