@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        A cateogory on UIControl for adding sound effects for different events.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwishControl"
+  s.homepage         = "https://github.com/mikaoj/SwishControl"
   s.license          = 'MIT'
   s.author           = { "Joakim Gyllstrom" => "joakim@backslashed.se" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwishControl.git", :tag => s.version.to_s }
