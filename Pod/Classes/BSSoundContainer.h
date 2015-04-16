@@ -24,7 +24,16 @@
 
 @interface BSSoundContainer : NSObject
 
+/**
+ Initializes a sound container with a given path for an audio file
+ @param aPath Path to an audio file.
+ @return a BSSoundContainer or nil if path invalid
+ */
 - (instancetype)initWithAudioPath:(NSString *)aPath;
+
+/**
+ Lay down the boogie and play that funky music till you die
+ */
 - (void)play;
 
 @end
