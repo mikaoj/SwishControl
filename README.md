@@ -1,6 +1,6 @@
 # SwishControl
 
-[![CI Status](http://img.shields.io/travis/Joakim Gyllstrom/SwishControl.svg?style=flat)](https://travis-ci.org/Joakim Gyllstrom/SwishControl)
+[![CI Status](https://travis-ci.org/mikaoj/SwishControl.svg?branch=master)](https://travis-ci.org/mikaoj/SwishControl)
 [![Version](https://img.shields.io/cocoapods/v/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)
 [![License](https://img.shields.io/cocoapods/l/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)
 [![Platform](https://img.shields.io/cocoapods/p/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)<br /><br />
