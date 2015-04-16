@@ -1,0 +1,14 @@
+PODS:
+  - SwishControl (0.1.0)
+
+DEPENDENCIES:
+  - SwishControl (from `../`)
+
+EXTERNAL SOURCES:
+  SwishControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwishControl: d9b66eeb52ea88efbad862da563f228c98f165ed
+
+COCOAPODS: 0.36.3

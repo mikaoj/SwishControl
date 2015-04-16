@@ -5,7 +5,5 @@ target 'SwishControl', :exclusive => true do
 end
 
 target 'Tests', :exclusive => true do
-  pod "SwishControl", :path => "../"
-
-  
+  pod "SwishControl", :path => "../"  
 end

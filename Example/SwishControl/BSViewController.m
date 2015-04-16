@@ -7,8 +7,12 @@
 //
 
 #import "BSViewController.h"
+#import <SwishControl/SwishControl.h>
 
 @interface BSViewController ()
+
+@property (weak, nonatomic) IBOutlet UIButton *firstButton;
+@property (weak, nonatomic) IBOutlet UIButton *secondButton;
 
 @end
 
@@ -17,13 +21,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(myAction)];
+    
+    NSString *clickPath = [[NSBundle mainBundle] pathForResource:@"click2" ofType:@"wav"];
+    [self.secondButton bs_setAudioWithPath:clickPath forEvent:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)myAction {
+    NSLog(@"Hello, is it me you're looking for?");
 }
 
 @end

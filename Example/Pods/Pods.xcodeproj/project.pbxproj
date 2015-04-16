@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B59A9075478679DCF8847F6 /* UIControl+SwishControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E627A40BA06A602FA1F36393 /* UIControl+SwishControl.h */; };
+		25D18CEF538405C2D59148EC /* UIControl+SwishControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 781B7B03CCEB67681B7FB32D /* UIControl+SwishControl.m */; };
+		27AC0F21B51E79A7A1B964E6 /* BSSoundContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B32D90D9AD0E2E90A0ED92EA /* BSSoundContainer.h */; };
+		3F72493D5B7E223D0BCFCB9E /* BSSoundContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB06259439FD0C0B3F16A8 /* BSSoundContainer.m */; };
+		46D90EE06C4BDDBCAF14C346 /* SwishControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C0E1E1B0F53D249E77146A /* SwishControl.h */; };
+		4FC258DAA79CEC81E5D2EAB5 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D16545E39E9FFE5527008C65 /* Pods-Tests-dummy.m */; };
+		5331CE02CC65D7D4C0EE76EB /* UIControl+SwishControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E627A40BA06A602FA1F36393 /* UIControl+SwishControl.h */; };
+		5F15D02E7ECEF57335976D53 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72460E1E11FB831461D31E0C /* AudioToolbox.framework */; };
+		8060C0D4662BC7AAD92009A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E737E3FC3E626AB157FDF05 /* UIKit.framework */; };
+		8823F6981FD0AE92D0D81FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E737E3FC3E626AB157FDF05 /* UIKit.framework */; };
+		9F6B44AE698DF22078132C61 /* Pods-Tests-SwishControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83283CBF1AD907ABCABDF605 /* Pods-Tests-SwishControl-dummy.m */; };
+		A2D9ECB6F7B00AA2FBDDBC17 /* Pods-SwishControl-SwishControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CC1C71176C13CA01C14F28 /* Pods-SwishControl-SwishControl-dummy.m */; };
+		B96DB935C5D1F50F27CFA62B /* BSSoundContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB06259439FD0C0B3F16A8 /* BSSoundContainer.m */; };
+		BB6DCAC84D1D662423FC5038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F667C82BD3EE629FB84EDA /* Foundation.framework */; };
+		C2749A3A250DFD00258438B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F667C82BD3EE629FB84EDA /* Foundation.framework */; };
+		C4B5B935A7441BC0A3BCC7F4 /* Pods-SwishControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821B094EE3E86A1760E4A42 /* Pods-SwishControl-dummy.m */; };
+		D64D01A7043C0447412A9ADB /* BSSoundContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B32D90D9AD0E2E90A0ED92EA /* BSSoundContainer.h */; };
+		D681AF4BE3BB420EEF380B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F667C82BD3EE629FB84EDA /* Foundation.framework */; };
+		D9F43ECE37CF416AAF1EDE3C /* UIControl+SwishControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 781B7B03CCEB67681B7FB32D /* UIControl+SwishControl.m */; };
+		DDCB64A180A453B5C0130334 /* SwishControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C0E1E1B0F53D249E77146A /* SwishControl.h */; };
+		E080116B383AAC086CEF6FEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72460E1E11FB831461D31E0C /* AudioToolbox.framework */; };
+		F9217BA6DFBC224778F023C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F667C82BD3EE629FB84EDA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74D60C0AD06342FDAEDDFFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE081BF0B9F4A0ADC65830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E072B806308364725CF771;
+			remoteInfo = "Pods-Tests-SwishControl";
+		};
+		DB898E30D7A1ECC318A08C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE081BF0B9F4A0ADC65830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDA4100A327AAC964331A7B;
+			remoteInfo = "Pods-SwishControl-SwishControl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0721E6FEA1DC0D7F8BB1F049 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E737E3FC3E626AB157FDF05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		40CC1C71176C13CA01C14F28 /* Pods-SwishControl-SwishControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwishControl-SwishControl-dummy.m"; sourceTree = "<group>"; };
+		4704CF868754BE8B5331170A /* Pods-SwishControl-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwishControl-resources.sh"; sourceTree = "<group>"; };
+		47F667C82BD3EE629FB84EDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4FEDAB921C27D9994F5881F5 /* Pods-SwishControl-SwishControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwishControl-SwishControl-prefix.pch"; sourceTree = "<group>"; };
+		54C0E1E1B0F53D249E77146A /* SwishControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwishControl.h; sourceTree = "<group>"; };
+		6CF4A85F689F96C365ABFCEE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EEE9ABDE9A837D122111048 /* Pods-SwishControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwishControl.debug.xcconfig"; sourceTree = "<group>"; };
+		72460E1E11FB831461D31E0C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		781B7B03CCEB67681B7FB32D /* UIControl+SwishControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+SwishControl.m"; sourceTree = "<group>"; };
+		83283CBF1AD907ABCABDF605 /* Pods-Tests-SwishControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SwishControl-dummy.m"; path = "../Pods-Tests-SwishControl/Pods-Tests-SwishControl-dummy.m"; sourceTree = "<group>"; };
+		866FAEA9EC18FDBCE455FEAF /* Pods-SwishControl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwishControl-acknowledgements.plist"; sourceTree = "<group>"; };
+		87587CBFE0C9BD43C5322E85 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8821B094EE3E86A1760E4A42 /* Pods-SwishControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwishControl-dummy.m"; sourceTree = "<group>"; };
+		88A821BD3748101337610591 /* libPods-Tests-SwishControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SwishControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899E56A0D0BBA638BE8DA1B5 /* Pods-SwishControl-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwishControl-environment.h"; sourceTree = "<group>"; };
+		8D2B03B654FAD40032A411E1 /* Pods-Tests-SwishControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SwishControl-prefix.pch"; path = "../Pods-Tests-SwishControl/Pods-Tests-SwishControl-prefix.pch"; sourceTree = "<group>"; };
+		8E9744AD12AC411945AE8A41 /* libPods-SwishControl-SwishControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwishControl-SwishControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CB06259439FD0C0B3F16A8 /* BSSoundContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSSoundContainer.m; sourceTree = "<group>"; };
+		A0608DF3B26FA9066A8F6D98 /* Pods-Tests-SwishControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SwishControl.xcconfig"; path = "../Pods-Tests-SwishControl/Pods-Tests-SwishControl.xcconfig"; sourceTree = "<group>"; };
+		AF49BFFDBA43F23FE2E810DA /* Pods-SwishControl-SwishControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwishControl-SwishControl-Private.xcconfig"; sourceTree = "<group>"; };
+		AF72C233EB6ADEFDBCCC9CE3 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B005468C64AB8BF234D3A2BD /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		B32D90D9AD0E2E90A0ED92EA /* BSSoundContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSSoundContainer.h; sourceTree = "<group>"; };
+		B3E5FBECFE226430506FE5E9 /* Pods-SwishControl-SwishControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwishControl-SwishControl.xcconfig"; sourceTree = "<group>"; };
+		C389C331BE36D1D435556716 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16545E39E9FFE5527008C65 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		D654C7D46C764CF50EB58202 /* Pods-SwishControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwishControl.release.xcconfig"; sourceTree = "<group>"; };
+		D6B37B492B3C5117ACE03DCE /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		DB468CCA741F3A0723718856 /* libPods-SwishControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwishControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E627A40BA06A602FA1F36393 /* UIControl+SwishControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+SwishControl.h"; sourceTree = "<group>"; };
+		E657647ADF96BBE587FC1165 /* Pods-SwishControl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwishControl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F00022E9AE9D0A6B86A37DEA /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F44FF326F22EADCA387BC368 /* Pods-Tests-SwishControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SwishControl-Private.xcconfig"; path = "../Pods-Tests-SwishControl/Pods-Tests-SwishControl-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A8825DF64CF85F60E8186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F15D02E7ECEF57335976D53 /* AudioToolbox.framework in Frameworks */,
+				C2749A3A250DFD00258438B7 /* Foundation.framework in Frameworks */,
+				8060C0D4662BC7AAD92009A7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F909CE59F5C33D68976E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9217BA6DFBC224778F023C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832ADF83E3F0218BA3493CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D681AF4BE3BB420EEF380B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A245E1A5806F9F9D243CE0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E080116B383AAC086CEF6FEF /* AudioToolbox.framework in Frameworks */,
+				BB6DCAC84D1D662423FC5038 /* Foundation.framework in Frameworks */,
+				8823F6981FD0AE92D0D81FE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA24BEB0EEAF90828455E12 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B32D90D9AD0E2E90A0ED92EA /* BSSoundContainer.h */,
+				93CB06259439FD0C0B3F16A8 /* BSSoundContainer.m */,
+				54C0E1E1B0F53D249E77146A /* SwishControl.h */,
+				E627A40BA06A602FA1F36393 /* UIControl+SwishControl.h */,
+				781B7B03CCEB67681B7FB32D /* UIControl+SwishControl.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		10E990E2946E5C2A9E60B118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9770E027D9A70D38F4AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA9770E027D9A70D38F4AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				72460E1E11FB831461D31E0C /* AudioToolbox.framework */,
+				47F667C82BD3EE629FB84EDA /* Foundation.framework */,
+				3E737E3FC3E626AB157FDF05 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		30EFD2E9805A5FD9A436BD37 = {
+			isa = PBXGroup;
+			children = (
+				6CF4A85F689F96C365ABFCEE /* Podfile */,
+				C5E693F22AEC2C238D284FF3 /* Development Pods */,
+				10E990E2946E5C2A9E60B118 /* Frameworks */,
+				550F38E51BC9D09E340F26F5 /* Products */,
+				B603D3F0EC3E0AA3DE9D55C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		37A59DB085ECED7A65FD8728 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24BEB0EEAF90828455E12 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		550F38E51BC9D09E340F26F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB468CCA741F3A0723718856 /* libPods-SwishControl.a */,
+				8E9744AD12AC411945AE8A41 /* libPods-SwishControl-SwishControl.a */,
+				C389C331BE36D1D435556716 /* libPods-Tests.a */,
+				88A821BD3748101337610591 /* libPods-Tests-SwishControl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37B5EC7C1C8FF4361DAC965 /* SwishControl */ = {
+			isa = PBXGroup;
+			children = (
+				37A59DB085ECED7A65FD8728 /* Pod */,
+				C0806E871B82E6C71979F7B9 /* Support Files */,
+			);
+			name = SwishControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B603D3F0EC3E0AA3DE9D55C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD54281B59ABB90A8DC384 /* Pods-SwishControl */,
+				B6D53FAA6FF3A1619262647E /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6D53FAA6FF3A1619262647E /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF72C233EB6ADEFDBCCC9CE3 /* Pods-Tests-acknowledgements.markdown */,
+				0721E6FEA1DC0D7F8BB1F049 /* Pods-Tests-acknowledgements.plist */,
+				D16545E39E9FFE5527008C65 /* Pods-Tests-dummy.m */,
+				B005468C64AB8BF234D3A2BD /* Pods-Tests-environment.h */,
+				D6B37B492B3C5117ACE03DCE /* Pods-Tests-resources.sh */,
+				F00022E9AE9D0A6B86A37DEA /* Pods-Tests.debug.xcconfig */,
+				87587CBFE0C9BD43C5322E85 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		C0806E871B82E6C71979F7B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E5FBECFE226430506FE5E9 /* Pods-SwishControl-SwishControl.xcconfig */,
+				AF49BFFDBA43F23FE2E810DA /* Pods-SwishControl-SwishControl-Private.xcconfig */,
+				40CC1C71176C13CA01C14F28 /* Pods-SwishControl-SwishControl-dummy.m */,
+				4FEDAB921C27D9994F5881F5 /* Pods-SwishControl-SwishControl-prefix.pch */,
+				A0608DF3B26FA9066A8F6D98 /* Pods-Tests-SwishControl.xcconfig */,
+				F44FF326F22EADCA387BC368 /* Pods-Tests-SwishControl-Private.xcconfig */,
+				83283CBF1AD907ABCABDF605 /* Pods-Tests-SwishControl-dummy.m */,
+				8D2B03B654FAD40032A411E1 /* Pods-Tests-SwishControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SwishControl-SwishControl";
+			sourceTree = "<group>";
+		};
+		C5E693F22AEC2C238D284FF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B37B5EC7C1C8FF4361DAC965 /* SwishControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DCFD54281B59ABB90A8DC384 /* Pods-SwishControl */ = {
+			isa = PBXGroup;
+			children = (
+				E657647ADF96BBE587FC1165 /* Pods-SwishControl-acknowledgements.markdown */,
+				866FAEA9EC18FDBCE455FEAF /* Pods-SwishControl-acknowledgements.plist */,
+				8821B094EE3E86A1760E4A42 /* Pods-SwishControl-dummy.m */,
+				899E56A0D0BBA638BE8DA1B5 /* Pods-SwishControl-environment.h */,
+				4704CF868754BE8B5331170A /* Pods-SwishControl-resources.sh */,
+				6EEE9ABDE9A837D122111048 /* Pods-SwishControl.debug.xcconfig */,
+				D654C7D46C764CF50EB58202 /* Pods-SwishControl.release.xcconfig */,
+			);
+			name = "Pods-SwishControl";
+			path = "Target Support Files/Pods-SwishControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3FA60459CFFCBB664718798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC0F21B51E79A7A1B964E6 /* BSSoundContainer.h in Headers */,
+				46D90EE06C4BDDBCAF14C346 /* SwishControl.h in Headers */,
+				1B59A9075478679DCF8847F6 /* UIControl+SwishControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFECCB564F5994C2FF717F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64D01A7043C0447412A9ADB /* BSSoundContainer.h in Headers */,
+				DDCB64A180A453B5C0130334 /* SwishControl.h in Headers */,
+				5331CE02CC65D7D4C0EE76EB /* UIControl+SwishControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EDA4100A327AAC964331A7B /* Pods-SwishControl-SwishControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49DFB254AC222FA73F1BAE2 /* Build configuration list for PBXNativeTarget "Pods-SwishControl-SwishControl" */;
+			buildPhases = (
+				79E7BC230AC5EE0F2F876581 /* Sources */,
+				A245E1A5806F9F9D243CE0D1 /* Frameworks */,
+				C3FA60459CFFCBB664718798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwishControl-SwishControl";
+			productName = "Pods-SwishControl-SwishControl";
+			productReference = 8E9744AD12AC411945AE8A41 /* libPods-SwishControl-SwishControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4376E7DDDAC5B9AB46160CB7 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADE35E7C8013F72D6A37AD5 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				F182418C0D40B1BA56054137 /* Sources */,
+				9832ADF83E3F0218BA3493CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F536CD345F87B8D49623529 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = C389C331BE36D1D435556716 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FEE6C79A213A7055E11CE3E /* Pods-SwishControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8ECE25BF39FC010978A150 /* Build configuration list for PBXNativeTarget "Pods-SwishControl" */;
+			buildPhases = (
+				AC6C8FADA34E23590BA0DE9A /* Sources */,
+				8F909CE59F5C33D68976E5A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791BB73E62DAAF418C7AD334 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwishControl";
+			productName = "Pods-SwishControl";
+			productReference = DB468CCA741F3A0723718856 /* libPods-SwishControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2E072B806308364725CF771 /* Pods-Tests-SwishControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A4C35178AFA57EDFC028C9 /* Build configuration list for PBXNativeTarget "Pods-Tests-SwishControl" */;
+			buildPhases = (
+				94B98606163B093FC175AC59 /* Sources */,
+				75A8825DF64CF85F60E8186E /* Frameworks */,
+				CEFECCB564F5994C2FF717F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-SwishControl";
+			productName = "Pods-Tests-SwishControl";
+			productReference = 88A821BD3748101337610591 /* libPods-Tests-SwishControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AE081BF0B9F4A0ADC65830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8B4BC8DCD0B9885E54B7B62D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30EFD2E9805A5FD9A436BD37;
+			productRefGroup = 550F38E51BC9D09E340F26F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FEE6C79A213A7055E11CE3E /* Pods-SwishControl */,
+				2EDA4100A327AAC964331A7B /* Pods-SwishControl-SwishControl */,
+				4376E7DDDAC5B9AB46160CB7 /* Pods-Tests */,
+				F2E072B806308364725CF771 /* Pods-Tests-SwishControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E7BC230AC5EE0F2F876581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F72493D5B7E223D0BCFCB9E /* BSSoundContainer.m in Sources */,
+				A2D9ECB6F7B00AA2FBDDBC17 /* Pods-SwishControl-SwishControl-dummy.m in Sources */,
+				D9F43ECE37CF416AAF1EDE3C /* UIControl+SwishControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B98606163B093FC175AC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96DB935C5D1F50F27CFA62B /* BSSoundContainer.m in Sources */,
+				9F6B44AE698DF22078132C61 /* Pods-Tests-SwishControl-dummy.m in Sources */,
+				25D18CEF538405C2D59148EC /* UIControl+SwishControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6C8FADA34E23590BA0DE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B5B935A7441BC0A3BCC7F4 /* Pods-SwishControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F182418C0D40B1BA56054137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC258DAA79CEC81E5D2EAB5 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F536CD345F87B8D49623529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SwishControl";
+			target = F2E072B806308364725CF771 /* Pods-Tests-SwishControl */;
+			targetProxy = 74D60C0AD06342FDAEDDFFAD /* PBXContainerItemProxy */;
+		};
+		791BB73E62DAAF418C7AD334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwishControl-SwishControl";
+			target = 2EDA4100A327AAC964331A7B /* Pods-SwishControl-SwishControl */;
+			targetProxy = DB898E30D7A1ECC318A08C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47E0E4B96BA4E06DDB1CDF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44FF326F22EADCA387BC368 /* Pods-Tests-SwishControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SwishControl/Pods-Tests-SwishControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		581A5A03933E34B89CEF1EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF49BFFDBA43F23FE2E810DA /* Pods-SwishControl-SwishControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwishControl-SwishControl/Pods-SwishControl-SwishControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		791E909F3FFC988BDF55E1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CFFC75607A98C9C5DEAFBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF49BFFDBA43F23FE2E810DA /* Pods-SwishControl-SwishControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwishControl-SwishControl/Pods-SwishControl-SwishControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95C8EA808C3DF78D60AFC9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44FF326F22EADCA387BC368 /* Pods-Tests-SwishControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SwishControl/Pods-Tests-SwishControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99671BACB4B1C8453809A280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87587CBFE0C9BD43C5322E85 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B8B1D5FB060A7A97DC911D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D654C7D46C764CF50EB58202 /* Pods-SwishControl.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D479A6DACF02FC7A4B90D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A780F46ADDE545F30292BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEE9ABDE9A837D122111048 /* Pods-SwishControl.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC35A67A10E89F1DCADC4F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00022E9AE9D0A6B86A37DEA /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4BC8DCD0B9885E54B7B62D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791E909F3FFC988BDF55E1E5 /* Debug */,
+				D479A6DACF02FC7A4B90D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8ECE25BF39FC010978A150 /* Build configuration list for PBXNativeTarget "Pods-SwishControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A780F46ADDE545F30292BB /* Debug */,
+				B8B1D5FB060A7A97DC911D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A4C35178AFA57EDFC028C9 /* Build configuration list for PBXNativeTarget "Pods-Tests-SwishControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C8EA808C3DF78D60AFC9DF /* Debug */,
+				47E0E4B96BA4E06DDB1CDF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADE35E7C8013F72D6A37AD5 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC35A67A10E89F1DCADC4F5C /* Debug */,
+				99671BACB4B1C8453809A280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49DFB254AC222FA73F1BAE2 /* Build configuration list for PBXNativeTarget "Pods-SwishControl-SwishControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFFC75607A98C9C5DEAFBE3 /* Debug */,
+				581A5A03933E34B89CEF1EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44AE081BF0B9F4A0ADC65830 /* Project object */;
+}
