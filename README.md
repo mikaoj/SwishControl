@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)<br /><br />
 SwishControl is a category on UIControl for adding sound effects to UIControlEvents.
 As of this writing these are the subclasses on UIControl that it should work on: UIButton, UIDatePicker, UIPageControl, UIRefreshControl, UISegmentedControl, UISlider, UIStepper, UISwitch, UITextField
-![Screenshot](https://raw.githubusercontent.com/mikaoj/SwishControl/master/Images/SwishControl.png)
+![Screenshot](https://raw.githubusercontent.com/mikaoj/SwishControl/develop/Images/SwishControl.png)
 
 ## Usage
 
@@ -20,7 +20,10 @@ This is how you add a sound effect for all UIButtons
 NSString *clickPath = [[NSBundle mainBundle] pathForResource:@"click" ofType:@"aif"];
 [[UIButton appearance] bs_setAudioWithPath:clickPath forEvent:UIControlEventTouchUpInside];
 ```
-Of course it can be applied to a single UIControl as well, if you don't want to set a sound for all of them.
+Of course it can be applied to a single UIControl as well, if you don't want to set a sound for all of them through the UIApperance proxy.
+```objc
+[refreshControl bs_setAudioWithPath:pathToRefreshSound forEvent:UIControlEventValueChanged];
+```
 
 ## Requirements
 iOS, bananas and a bunch of sound effects
