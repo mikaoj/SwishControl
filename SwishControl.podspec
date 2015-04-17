@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.private_header_files = 'Pod/Classes/BSSoundContainer.h'
   s.frameworks = 'UIKit', 'AudioToolbox'
-  spec.screenshot  = "https://raw.githubusercontent.com/mikaoj/SwishControl/master/Images/SwishControl.png"
+  s.screenshot  = "https://raw.githubusercontent.com/mikaoj/SwishControl/master/Images/SwishControl.png"
 end
