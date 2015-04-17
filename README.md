@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)
 [![Platform](https://img.shields.io/cocoapods/p/SwishControl.svg?style=flat)](http://cocoapods.org/pods/SwishControl)<br /><br />
 SwishControl is a category on UIControl for adding sound effects to UIControlEvents.
+As of this writing these are the subclasses on UIControl that it should work on: UIButton, UIDatePicker, UIPageControl, UIRefreshControl, UISegmentedControl, UISlider, UIStepper, UISwitch, UITextField
+![Screenshot](https://raw.githubusercontent.com/mikaoj/SwishControl/master/Images/SwishControl.png)
 
 ## Usage
 

@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SwishControl-->
         <scene sceneID="E97-tU-FB2">
             <objects>
                 <viewController id="1nh-sv-SxM" customClass="BSViewController" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GhB-GR-Day"/>
+                    <navigationItem key="navigationItem" title="SwishControl" id="GhB-GR-Day"/>
                     <connections>
                         <outlet property="firstButton" destination="lbO-en-8dU" id="lo8-pn-MGl"/>
                         <outlet property="secondButton" destination="DvD-Y1-xdd" id="Su8-1D-oJZ"/>
